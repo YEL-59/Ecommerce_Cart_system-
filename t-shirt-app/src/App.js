@@ -13,7 +13,7 @@ function App() {
       children:[
         {
           path:'/',
-          loader:()=>fetch('tshirt.jsonn'),
+          loader:()=>fetch('tshirt.json'),
           element:<Home></Home>
         },
         {
